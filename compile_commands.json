@@ -1,0 +1,150 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-I../lib",
+            "-DXXH_NAMESPACE=LZ4_",
+            "-o",
+            "bench.o",
+            "bench.c"
+        ],
+        "directory": "/home/chris/git/lz4/programs",
+        "file": "bench.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-DXXH_NAMESPACE=LZ4_",
+            "-fPIC",
+            "-fvisibility=hidden",
+            "-o",
+            "liblz4.so.1.9.3",
+            "lz4hc.c"
+        ],
+        "directory": "/home/chris/git/lz4/lib",
+        "file": "lz4hc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-DXXH_NAMESPACE=LZ4_",
+            "xxhash.c"
+        ],
+        "directory": "/home/chris/git/lz4/lib",
+        "file": "xxhash.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-I../lib",
+            "-DXXH_NAMESPACE=LZ4_",
+            "-o",
+            "datagen.o",
+            "datagen.c"
+        ],
+        "directory": "/home/chris/git/lz4/programs",
+        "file": "datagen.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-DXXH_NAMESPACE=LZ4_",
+            "lz4hc.c"
+        ],
+        "directory": "/home/chris/git/lz4/lib",
+        "file": "lz4hc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-DXXH_NAMESPACE=LZ4_",
+            "-fPIC",
+            "-fvisibility=hidden",
+            "-o",
+            "liblz4.so.1.9.3",
+            "lz4.c"
+        ],
+        "directory": "/home/chris/git/lz4/lib",
+        "file": "lz4.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-I../lib",
+            "-DXXH_NAMESPACE=LZ4_",
+            "-o",
+            "lz4io.o",
+            "lz4io.c"
+        ],
+        "directory": "/home/chris/git/lz4/programs",
+        "file": "lz4io.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-DXXH_NAMESPACE=LZ4_",
+            "-fPIC",
+            "-fvisibility=hidden",
+            "-o",
+            "liblz4.so.1.9.3",
+            "xxhash.c"
+        ],
+        "directory": "/home/chris/git/lz4/lib",
+        "file": "xxhash.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-I../lib",
+            "-DXXH_NAMESPACE=LZ4_",
+            "-o",
+            "lz4cli.o",
+            "lz4cli.c"
+        ],
+        "directory": "/home/chris/git/lz4/programs",
+        "file": "lz4cli.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-DXXH_NAMESPACE=LZ4_",
+            "lz4frame.c"
+        ],
+        "directory": "/home/chris/git/lz4/lib",
+        "file": "lz4frame.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-DXXH_NAMESPACE=LZ4_",
+            "-fPIC",
+            "-fvisibility=hidden",
+            "-o",
+            "liblz4.so.1.9.3",
+            "lz4frame.c"
+        ],
+        "directory": "/home/chris/git/lz4/lib",
+        "file": "lz4frame.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-DXXH_NAMESPACE=LZ4_",
+            "lz4.c"
+        ],
+        "directory": "/home/chris/git/lz4/lib",
+        "file": "lz4.c"
+    }
+]
